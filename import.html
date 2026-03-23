@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Import | Kushy Prod</title>
+    <link rel="icon" type="image/png" href="https://picsum.photos/seed/kushy-logo/32/32">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .import-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+            background: radial-gradient(circle at 50% 50%, rgba(153, 69, 255, 0.15) 0%, transparent 70%);
+        }
+        .import-box {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            padding: 48px;
+            border-radius: 32px;
+            max-width: 500px;
+            width: 100%;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+        .import-icon {
+            font-size: 48px;
+            margin-bottom: 24px;
+        }
+        .import-title {
+            font-size: 32px;
+            margin-bottom: 16px;
+        }
+        .import-desc {
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 24px;
+            color: var(--accent-green);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="import-container">
+        <div class="import-box">
+            <div class="import-icon">🌱</div>
+            <h1 class="import-title gradient-text">IMPORT ASSETS</h1>
+            <p class="import-desc">Connect your wallet or import your legacy seeds to begin your journey in the Kushy Prod ecosystem.</p>
+            <button class="btn btn-large btn-gradient" onclick="alert('Import feature coming soon!')">CONNECT WALLET</button>
+            <br>
+            <a href="index.html" class="back-link">← Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
